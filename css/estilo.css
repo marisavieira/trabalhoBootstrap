@@ -1,0 +1,351 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
+
+html, body{
+	width: 100%;
+	background-color: #f1f2f6;
+}
+
+/* ---------------------- MENU ---------------------- */
+.nav-item{
+	font-family: 'Quicksand', sans-serif;
+	font-size: 18px;
+}
+
+
+/* ---------------------- INDEX ---------------------- */
+#hr-index{
+	background-color: black;
+}
+
+#titulo{
+	padding-top: 30px;
+	margin-bottom: 25px;
+	font-family: 'Quicksand', sans-serif;
+}
+
+.container-fluid{
+	background-color: #f1f2f6;
+}
+
+.musicas{
+	padding: 50px 30px 20px 30px;
+	width: 80%;
+	margin: auto;
+	background-color: white;
+	box-shadow: 5px 5px 0 rgb(206, 214, 224);
+   -webkit-box-shadow: 5px 5px 0 rgb(206, 214, 224);
+   -moz-box-shadow: 5px 5px 0 rgb(206, 214, 224);   
+}
+
+
+#img-musica{	
+	-webkit-filter:grayscale(60%);
+}
+
+#img-musica:hover{	
+	-webkit-filter:grayscale(0%);
+}
+
+#biografia{
+	height: 90vh;
+	background-image: url(../imagens/fundo.png);
+	background-position: left;
+	background-size: cover;
+	position: relative;
+	margin-bottom: 0;
+	padding-bottom: 0;
+	display:table;
+}
+
+.centro-div{
+	vertical-align: middle;
+	display: table-cell;
+	text-align: center;
+}
+
+#tit-biografia{
+	font-family: 'Quicksand', sans-serif;
+	font-size: 80px;
+}
+
+#link-biografia{	
+	font-family: 'Quicksand', sans-serif;
+	text-decoration: none;
+}
+
+
+#quadrado-noticia{
+	background-color: #f1f2f6;
+	color: black;
+	min-height: 200px;
+	width: 350px;
+	margin-left: 7px;
+	margin-bottom: 15px;
+	font-family: 'Quicksand', sans-serif;
+	font-size: 18px;
+}
+
+#quadrado-noticia:hover{	
+	background-color: white;
+	cursor: pointer;
+}
+
+#imagem-noticia-uma, #imagem-noticia-duas, #imagem-noticia-tres, #imagem-noticia-quatro, #imagem-noticia-cinco, #imagem-noticia-seis, #imagem-noticia-sete, #imagem-noticia-oito, #imagem-noticia-nove{
+	background-size: cover;
+	background-position: center;
+	min-height: 200px;
+	min-width: 350px;
+}
+
+#imagem-noticia-uma{	
+	background-image: url(../imagens/selena-clipe-lahn.png);
+}
+
+#imagem-noticia-duas{	
+	background-image: url(../imagens/images.jpg);
+}
+
+#imagem-noticia-tres{	
+	background-image: url(../imagens/selena-gomez-announces-new-music-lose-you-to-love-me-fans-ask-if-justin-bieber-inspired-it.jpg);
+}
+
+#imagem-noticia-quatro{	
+	background-image: url(../imagens/Selena-Gomez.jpg);
+}
+
+#imagem-noticia-cinco{	
+	background-image: url(../imagens/DJ-Snake-Ozuna-Cardi-B-Selena-Gomez-2018-billboard-1548.jpg);
+}
+
+#imagem-noticia-seis{	
+	background-image: url(../imagens/04.jpg);
+}
+
+#imagem-noticia-sete{	
+	background-image: url(../imagens/Selena_Gomez_-_Harper_s_Bazaar_March_2018_Issue-39.jpg);
+}
+
+#imagem-noticia-oito{	
+	background-image: url(../imagens/selena-gomez-coach-campaign.png);
+}
+
+#imagem-noticia-nove{	
+	background-image: url(../imagens/IMG_3125.jpg.jpeg);
+}
+
+.foto{
+	padding: 20px 30px 20px 30px;
+	width: 80%;
+	margin: auto;
+	background-color: white;
+	box-shadow: 5px 5px 0 rgb(206, 214, 224);
+   -webkit-box-shadow: 5px 5px 0 rgb(206, 214, 224);
+   -moz-box-shadow: 5px 5px 0 rgb(206, 214, 224);   
+}
+
+#ler-mais{	
+	font-family: 'EB Garamond', serif;
+	font-size: 15px;
+	color: gray;
+	text-decoration: none;
+}
+
+
+
+/* ---------------------- PAGINA DE TODAS MUSICAS ---------------------- */
+
+#revival, #stars-dance, #for-you, #wtsgd, #kiss-and-tell{
+	padding: 50px 30px 20px 30px;
+	background-color: black;
+	background-position: center;
+	background-size: cover;
+	margin-bottom: 5px;
+}
+
+#revival{	
+	background-image: url(../imagens/fundorevival.jpg);
+}
+
+#stars-dance{	
+	background-image: url(../imagens/fundostarsdance.jpg);
+}
+
+#wtsgd{	
+	background-image: url(../imagens/fundow.jpg);
+}
+
+#kiss-and-tell{	
+	background-image: url(../imagens/fundokissandtell.jpg);
+}
+
+#for-you{	
+	background-image: url(../imagens/fundoforyou.jpg);
+}
+
+.singles{
+	padding: 50px 20px 20px 0;
+	width: 90%;
+	margin: auto;
+	background-color: white;
+	box-shadow: 5px 5px 0 rgb(206, 214, 224);
+   -webkit-box-shadow: 5px 5px 0 rgb(206, 214, 224);
+   -moz-box-shadow: 5px 5px 0 rgb(206, 214, 224);
+}
+
+/* ---------------------- PAGINA VIDEOS ---------------------- */
+.vd{
+	background-image: url(../imagens/bg1.png);
+	background-position: center;
+	background-size:cover;
+	background-color: black;
+}
+
+.dentro{
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+#titulocli{
+	padding-top: 30px;
+	margin-bottom: 25px;
+	font-family: 'Quicksand', sans-serif;
+	color: white;
+}
+
+.titcli{	
+	font-family: 'Quicksand', sans-serif;
+	color: white;
+	font-size: 25px;
+}
+
+/* ---------------------- PAGINA VIDEOS ---------------------- */
+.lytlm{
+	background-image: url(../imagens/fundolytlm.jpg);
+	background-position: center;
+	background-size:cover;
+	background-color: black;
+}
+.icge{
+	background-image: url(../imagens/fundoicge.jpg);
+	background-position: center;
+	background-size:cover;
+	background-color: black;
+}
+.tt{
+	background-image: url(../imagens/fundott.jpg);
+	background-position: center;
+	background-size:cover;
+	background-color: black;
+}
+.bty{
+	background-image: url(../imagens/fundobty.jpg);
+	background-position: center;
+	background-size:cover;
+	background-color: black;
+}
+.wolves{
+	background-image: url(../imagens/fundowolves.jpg);
+	background-position: center;
+	background-size:cover;
+	background-color: black;
+}
+.bbu{
+	background-image: url(../imagens/fundobb.jpg);
+	background-position: center;
+	background-size:cover;
+	background-color: black;
+}
+.capa{
+	background-image: url(../imagens/fundocapa.png);
+	background-position: center;
+	background-size:cover;
+	background-color: black;
+}
+
+/* ---------------------- PAGINA BIOGRAFIA ---------------------- */
+@import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
+
+.inicio{
+	height: 90vh;
+	background-image: url(../imagens/soteste.jpg);
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+	position: relative;
+	margin-bottom: 0;
+	padding-bottom: 0;
+}
+
+#img-bio{
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+}
+
+#linha{
+	margin: 0;
+	padding:0;
+}
+
+#paragrafo{
+	font-family: 'Quicksand', sans-serif;
+	font-size: 20px;
+	vertical-align: middle;
+	display: table-cell;
+	text-align: center;
+}
+
+#paragrafo2{
+	font-family: 'Quicksand', sans-serif;
+	font-size: 20px;
+	vertical-align: middle;
+	display: table-cell;
+	text-align: center;
+	width:100%;
+}
+
+.int{
+	position: relative;
+	margin-bottom: 0;
+	padding-bottom: 0;
+	display:table;
+}
+
+.meio{	
+	vertical-align: middle;
+	display: table-cell;
+}
+
+/* ---------------------- PAGINA LOJA ---------------------- */
+#titulo{	
+	padding-top: 15px;
+	font-family: 'Quicksand', sans-serif;
+	font-size: 40px;
+}
+
+.card-body {
+	font-family: 'Quicksand', sans-serif;
+}
+
+/* ---------------------- PARA SUBIR PARA O TOPO ---------------------- */
+#subirTopo {
+	text-decoration: none;
+	background: #ced6e0;
+	bottom: 20px;
+	right: 10px;
+	color: #fff;
+	text-align: center;
+	cursor: pointer;
+	padding: 15px;
+	font-size: 15px;
+	font-weight: bold;
+	text-transform: uppercase;
+	position: fixed;
+	border: 0;
+	font-family: sans-serif;
+	opacity: .8;
+}
+
+#subirTopo:hover {
+	opacity:1;
+}

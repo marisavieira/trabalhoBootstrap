@@ -1,0 +1,333 @@
+<!doctype html>
+<html lang="pt-br">
+	<head>
+		<title> Selena Gomez | Músicas </title>
+		<meta charset="UTF-8" />	
+		
+		<link rel="stylesheet" type="text/css" href="../css/estilo.css"/>
+		<link rel="sortcut icon" href="../imagens/icon.jpg" type="image/x-icon" /> <!-- Para colocar o icon na barra de endereco-->
+		
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+		
+		
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B" crossorigin="anonymous">
+		
+		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.min.js" integrity="sha384-o+RDsa0aLu++PJvFqy8fFScvbHFLtbvScb8AjopnFD+iEQ7wo/CG0xlczd+2O/em" crossorigin="anonymous"></script>
+		
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+			<script type="text/javascript">
+				jQuery(document).ready(function(){
+
+				jQuery("#subirTopo").hide();
+
+				jQuery('a#subirTopo').click(function () {
+						 jQuery('body,html').animate({
+						   scrollTop: 0
+						 }, 800);
+						return false;
+				   });
+
+				jQuery(window).scroll(function () {
+						 if (jQuery(this).scrollTop() > 1000) {
+							jQuery('#subirTopo').fadeIn();
+						 } else {
+							jQuery('#subirTopo').fadeOut();
+						 }
+					 });
+				});
+			</script>
+		
+	</head>	
+	
+	<body>
+	
+	<!--------------------------------------- MENU --------------------------------------->
+	
+		<nav class="navbar navbar-expand-lg navbar-light bg-light pagination justify-content-center">
+			<ul class="navbar-nav">
+				<li class="nav-item">
+					<a class="navbar-brand" href="../index.html">
+						<img src="../imagens/logo.png" height="48" class="d-inline-block align-top" alt="">
+					</a>
+				</li>
+				<li class="nav-item">
+					<div class="dropdown">
+					  <a class="nav-link text-dark bg-light dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+						Músicas
+					  </a>
+
+					  <div class="dropdown-menu bg-light" aria-labelledby="dropdownMenuLink">
+						<a class="dropdown-item bg-light"><del/>Tudo</del></a>
+						<a class="dropdown-item bg-light" href="albuns.html">Álbuns</a>
+						<a class="dropdown-item bg-light" href="singles.html">Singles</a>
+					  </div>
+					</div>
+				</li>	
+				<li class="nav-item">
+					<a class="nav-link text-dark bg-light" href="video.html">Vídeos</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link text-dark bg-light" href="filme.html">Filmes</a>
+				</li>	
+				<li class="nav-item">
+					<a class="nav-link text-dark bg-light" href="bio.html">Biografia</a>
+				</li>		
+				<li class="nav-item">
+					<a class="nav-link text-dark bg-light" href="noticia.html">Notícias</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link text-dark bg-light" href="galeria.html">Galeria</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link text-dark bg-light" href="loja.html">Loja</a>
+				</li>
+			</ul>
+		</nav>
+		
+	<!--------------------------------------- MUSICAS --------------------------------------->
+		<div class="container-fluid">
+			<div class="container">
+				<h3 id="titulo"> <b> Álbuns </b> </h3>
+				<hr id="hr-index">
+			</div>
+			
+			<div class="pagination justify-content-center" style="width: 100%; background-color: 100%;" id="revival">	
+				<div class="row">
+					<div class="col-sm-6">					
+						<div class="card w-75 mx-auto">
+							<div class="card-body">
+								<img src="../imagens/revival.png" class="d-inline-block align-top" width="100%">
+							</div>
+						</div>
+					</div>					
+					<div class="col-sm-6">					
+						<div class="card-sm-3 w-75 mx-auto">
+							<div class="card-body">
+								<iframe src="https://open.spotify.com/embed/album/3Kbuu2tHsIbplFUkB7a5oE" width="100%" height="400" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>	
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			
+			<div class="pagination justify-content-center" style="width: 100%; background-color: 100%;" id="for-you">	
+				<div class="row">
+					<div class="col-sm-6">					
+						<div class="card w-75 mx-auto">
+							<div class="card-body">
+								<img src="../imagens/capafy.png" class="d-inline-block align-top" width="100%">
+							</div>
+						</div>
+					</div>
+					
+					<div class="col-sm-6">					
+						<div class="card-sm-3 w-75 mx-auto">
+							<div class="card-body">
+								<iframe src="https://open.spotify.com/embed/album/78GeZ5IA1KSbI0MiR4bAhH" width="100%" height="400"  frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			
+			<div class="pagination justify-content-center" style="width: 100%; background-color: 100%;" id="stars-dance">	
+				<div class="row">
+					<div class="col-sm-6">					
+						<div class="card w-75 mx-auto">
+							<div class="card-body">
+								<img src="../imagens/capasd.jpg" class="d-inline-block align-top" width="100%">
+							</div>
+						</div>
+					</div>
+					
+					<div class="col-sm-6">					
+						<div class="card-sm-3 w-75 mx-auto">
+							<div class="card-body">
+								<iframe src="https://open.spotify.com/embed/album/1Z3ZtkT5cLFoul9AADPHQ9" width="100%" height="400" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			
+			<div class="pagination justify-content-center" style="width: 100%; background-color: 100%;" id="wtsgd">	
+				<div class="row">
+					<div class="col-sm-6">					
+						<div class="card w-75 mx-auto">
+							<div class="card-body">
+								<img src="../imagens/capawtsgd.jpg" class="d-inline-block align-top" width="100%">
+							</div>
+						</div>
+					</div>
+					
+					<div class="col-sm-6">					
+						<div class="card-sm-3 w-75 mx-auto">
+							<div class="card-body">
+								<iframe src="https://open.spotify.com/embed/album/49yHvRh1cOfLcEKukEP7Ox" width="100%" height="400" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			
+			<div class="pagination justify-content-center" style="width: 100%; background-color: 100%;" id="kiss-and-tell">	
+				<div class="row">
+					<div class="col-sm-6">					
+						<div class="card w-75 mx-auto">
+							<div class="card-body">
+								<img src="../imagens/capakat.jpg" class="d-inline-block align-top" width="100%">
+							</div>
+						</div>
+					</div>
+					
+					<div class="col-sm-6">					
+						<div class="card-sm-3 w-75 mx-auto">
+							<div class="card-body">
+								<iframe src="https://open.spotify.com/embed/album/5lm8loAsSpprr19lwSY16V" width="100%" height="400" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		
+		<div class="container-fluid">
+			<div class="container">
+				<h3 id="titulo"> <b> SINGLES </b> </h3>
+				<hr id="hr-index">
+			</div>
+			<div class="singles">				
+				<div class="row pagination justify-content-center">
+					<div class="col-xl-3">
+						<div class="card mx-auto mb-5" style="width:250px;">
+							<img class="card-img-top" src="../imagens/capalahn.png" alt="Imagem do card" style="width: 250px;">				
+							<iframe src="https://open.spotify.com/embed/track/4yI3HpbSFSgFZtJP2kDe5m" width="250" height="80" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+						</div>
+					</div>
+					<div class="col-xl-3">
+						<div class="card mx-auto mb-5" style="width:250px;">
+							<img class="card-img-top" src="../imagens/capalytlm.jpg" alt="Imagem do card" style="width: 250px;">				
+							<iframe src="https://open.spotify.com/embed/track/1HfMVBKM75vxSfsQ5VefZ5" width="250" height="80" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+						</div>
+					</div>
+					<div class="col-xl-3">
+						<div class="card mx-auto mb-5" style="width:250px;">
+							<img class="card-img-top" src="../imagens/capaicge.jpg" alt="Imagem do card" style="width: 250px;">				
+							<iframe src="https://open.spotify.com/embed/track/1WSGTYKLEpKfNQYYW5Oymt" width="250" height="80" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+						</div>
+					</div>
+					<div class="col-xl-3">
+						<div class="card mx-auto mb-5" style="width:250px;">
+							<img class="card-img-top" src="../imagens/capatt.jpg" alt="Imagem do card" style="width: 250px;">				
+							<iframe src="https://open.spotify.com/embed/track/0KoiMHhqKLoL4xM54rcWYY" width="250" height="80" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+						</div>
+					</div>	
+				</div>	
+
+				
+				<div class="row pagination justify-content-center">
+					<div class="col-xl-3">
+						<div class="card mx-auto mb-5" style="width:250px;">
+							<img class="card-img-top" src="../imagens/capabty.jpg" alt="Imagem do card" style="width: 250px;">				
+							<iframe src="https://open.spotify.com/embed/track/4hQ6UGyWQIGJmHSo0J88JW" width="250" height="80" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+						</div>
+					</div>
+					<div class="col-xl-3">
+						<div class="card mx-auto mb-5" style="width:250px;">
+							<img class="card-img-top" src="../imagens/capaw.jpg" alt="Imagem do card" style="width: 250px;">				
+							<iframe src="https://open.spotify.com/embed/album/5gQZvWM1o8NkQndueJtZcP" width="250" height="80" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+						</div>
+					</div>
+					<div class="col-xl-3">
+						<div class="card mx-auto mb-5" style="width:250px;">
+							<img class="card-img-top" src="../imagens/capaf.jpg" alt="Imagem do card" style="width: 250px;">				
+							<iframe src="https://open.spotify.com/embed/album/3x97AnoAAIBGJuqZSTtVte" width="250" height="80" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+						</div>
+					</div>
+					<div class="col-xl-3">
+						<div class="card mx-auto mb-5" style="width:250px;">
+							<img class="card-img-top" src="../imagens/capabl.jpg" alt="Imagem do card" style="width: 250px;">				
+							<iframe src="https://open.spotify.com/embed/album/1iuzMKNzVo8HJ67eW32YMr" width="250" height="80" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+						</div>
+					</div>	
+				</div>	
+
+				
+				<div class="row pagination justify-content-center">
+					<div class="col-xl-3">
+						<div class="card mx-auto mb-5" style="width:250px;">
+							<img class="card-img-top" src="../imagens/capaiam.jpg" alt="Imagem do card" style="width: 250px;">				
+							<iframe src="https://open.spotify.com/embed/album/0IUCAsckpNyV4wHKIHQawC" width="250" height="80" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+						</div>
+					</div>
+					<div class="col-xl-3">
+						<div class="card mx-auto mb-5" style="width:250px;">
+							<img class="card-img-top" src="../imagens/capakewk.jpg" alt="Imagem do card" style="width: 250px;">				
+							<iframe src="https://open.spotify.com/embed/track/7KxhSJOYiqCDclXDBNlFSZ" width="250" height="80" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+						</div>
+					</div>
+					<div class="col-xl-3">
+						<div class="card mx-auto mb-5" style="width:250px;">
+							<img class="card-img-top" src="../imagens/capahtm.jpg" alt="Imagem do card" style="width: 250px;">				
+							<iframe src="https://open.spotify.com/embed/track/3CJvmtWw2bJsudbAC5uCQk" width="250" height="80" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+						</div>
+					</div>
+					<div class="col-xl-3">
+						<div class="card mx-auto mb-5" style="width:250px;">
+							<img class="card-img-top" src="../imagens/capasol.jpg" alt="Imagem do card" style="width: 250px;">				
+							<iframe src="https://open.spotify.com/embed/track/6ZANrVuAMp2rpjhfbOuJly" width="250" height="80" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+						</div>
+					</div>	
+				</div>		
+
+				
+				<div class="row pagination justify-content-center">
+					<div class="col-xl-3">
+						<div class="card mx-auto mb-5" style="width:250px;">
+							<img class="card-img-top" src="../imagens/capagfy.jpg" alt="Imagem do card" style="width: 250px;">				
+							<iframe src="https://open.spotify.com/embed/album/7FbUyvtDTsoGMhTlGOtv5q" width="250" height="80" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+						</div>
+					</div>
+					<div class="col-xl-3">
+						<div class="card mx-auto mb-5" style="width:250px;">
+							<img class="card-img-top" src="../imagens/capathwwit.jpg" alt="Imagem do card" style="width: 250px;">				
+							<iframe src="https://open.spotify.com/embed/album/2iFTxCYwhF5oC1L8s1B0rI" width="250" height="80" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+						</div>
+					</div>
+					<div class="col-xl-3">
+						<div class="card mx-auto mb-5" style="width:250px;">
+							<img class="card-img-top" src="../imagens/capacegi.jpg" alt="Imagem do card" style="width: 250px;">				
+							<iframe src="https://open.spotify.com/embed/album/3tzEqPHGtSXywFQoAtYMia" width="250" height="80" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+						</div>
+					</div>
+					<div class="col-xl-3">
+						<div class="card mx-auto mb-5" style="width:250px;">
+							<img class="card-img-top" src="../imagens/capasdm.jpg" alt="Imagem do card" style="width: 250px;">				
+							<iframe src="https://open.spotify.com/embed/album/4dDNvSSwUVvHMPAWNEserq" width="250" height="80" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+						</div>
+					</div>	
+				</div>				
+			</div>
+		</div>	
+		
+	<!--------------------------------------- FOOTER --------------------------------------->		
+		<footer style="background-color: black;">
+			<ul class="pagination justify-content-center m-0">
+				<li> <a href="https://instagram.com/selenagomez/" target="_blank'"> <p align="center" class="p-0 m-0"> <i class="fab fa-instagram" style="font-size: 25px; color: white; margin-top: 20px; margin-right: 20px; margin-bottom: 20px;"></i> </p> </a> </li>
+				<li> <a href="https://www.facebook.com/Selena" target="_blank'"> <p align="center" class="p-0 m-0"> <i class="fab fa-facebook-f" style="font-size: 25px; color: white; margin-top: 20px; margin-right: 20px; margin-bottom: 20px;"></i> </p> </a> </li>
+				<li> <a href="http://twitter.com/selenagomez" target="_blank'"> <p align="center" class="p-0 m-0"> <i class="fab fa-twitter" style="font-size: 25px; color: white; margin-top: 20px; margin-right: 20px; margin-bottom: 20px;"></i> </p> </a> </li>
+				<li> <a href="https://www.snapchat.com/add/selenagomez" target="_blank'"> <p align="center" class="p-0 m-0"> <i class="fab fa-snapchat-ghost" style="font-size: 25px; color: white; margin-top: 20px; margin-right: 20px; margin-bottom: 20px;"></i> </p> </a> </li>
+				<li> <a href="http://www.youtube.com/selenagomezvevo" target="_blank'"> <p align="center" class="p-0 m-0"> <i class="fab fa-youtube" style="font-size: 25px; color: white; margin-top: 20px; margin-right: 20px; margin-bottom: 20px;"></i> </p> </a> </li>
+				<li> <a href="https://play.spotify.com/artist/0C8ZW7ezQVs4URX5aX7Kqx?play=true&utm_source=open.spotify.com&utm_medium=open" target="_blank'"> <p align="center" class="p-0 m-0"> <i class="fab fa-spotify" style="font-size: 25px; color: white; margin-top: 20px; margin-right: 20px; margin-bottom: 20px;"></i> </p> </a> </li>
+				<li> <a href="https://itunes.apple.com/us/artist/selena-gomez/id280215834" target="_blank'"> <p align="center" class="p-0 m-0"> <i class="fab fa-apple" style="font-size: 25px; color: white; margin-top: 20px; margin-right: 20px; margin-bottom: 20px;"></i> </p> </a> </li>
+			</ul>
+		</footer>
+		
+	<!--------------------------------------- QUADRADO PARA SUBIR PAGINA --------------------------------------->
+		<a id="subirTopo">  ^</a>
+		
+	</body>
+</html>

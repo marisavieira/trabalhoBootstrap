@@ -1,0 +1,261 @@
+<!doctype html>
+<html lang="pt-br">
+	<head>
+		<title> Selena Gomez | Filmes </title>
+		<meta charset="UTF-8" />	
+		
+		<link rel="stylesheet" type="text/css" href="../css/estilo.css"/>
+		<link rel="sortcut icon" href="../imagens/icon.jpg" type="image/x-icon" /> <!-- Para colocar o icon na barra de endereco-->
+		
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+		
+		
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B" crossorigin="anonymous">
+		
+		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.min.js" integrity="sha384-o+RDsa0aLu++PJvFqy8fFScvbHFLtbvScb8AjopnFD+iEQ7wo/CG0xlczd+2O/em" crossorigin="anonymous"></script>
+		
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+			<script type="text/javascript">
+				jQuery(document).ready(function(){
+
+				jQuery("#subirTopo").hide();
+
+				jQuery('a#subirTopo').click(function () {
+						 jQuery('body,html').animate({
+						   scrollTop: 0
+						 }, 800);
+						return false;
+				   });
+
+				jQuery(window).scroll(function () {
+						 if (jQuery(this).scrollTop() > 1000) {
+							jQuery('#subirTopo').fadeIn();
+						 } else {
+							jQuery('#subirTopo').fadeOut();
+						 }
+					 });
+				});
+			</script>
+		
+	</head>	
+	
+	<body>
+	
+	<!--------------------------------------- MENU --------------------------------------->
+	
+		<nav class="navbar navbar-expand-lg navbar-light bg-light pagination justify-content-center">
+			<ul class="navbar-nav">
+				<li class="nav-item">
+					<a class="navbar-brand" href="../index.html">
+						<img src="../imagens/logo.png" height="48" class="d-inline-block align-top" alt="">
+					</a>
+				</li>
+				<li class="nav-item">
+					<div class="dropdown">
+					  <a class="nav-link text-dark bg-light dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+						Músicas
+					  </a>
+
+					  <div class="dropdown-menu bg-light" aria-labelledby="dropdownMenuLink">
+						<a class="dropdown-item bg-light" href="musica.html">Tudo</a>
+						<a class="dropdown-item bg-light" href="albuns.html">Álbuns</a>
+						<a class="dropdown-item bg-light" href="singles.html">Singles</a>
+					  </div>
+					</div>
+				</li>	
+				<li class="nav-item">
+					<a class="nav-link text-dark bg-light" href="video.html">Videos</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link text-dark bg-light"><del>Filmes</del></a>
+				</li>	
+				<li class="nav-item">
+					<a class="nav-link text-dark bg-light" href="bio.html">Biografia</a>
+				</li>		
+				<li class="nav-item">
+					<a class="nav-link text-dark bg-light" href="noticia.html">Notícias</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link text-dark bg-light" href="galeria.html">Galeria</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link text-dark bg-light" href="loja.html">Loja</a>
+				</li>
+			</ul>
+		</nav>
+		
+		<!--------------------------------------- FILMES --------------------------------------->		
+		<div class="container mt-5">
+			<div class="row">
+				<div class="col-lg-3">
+					<div class="card mx-auto mb-5" style="width:200px;">
+						<img class="card-img-top w-100" id="img-musica" src="../imagens/capav2.jpg" alt="Imagem do card" style="width: 250px;">				
+						<div class="card-body text-center bg-dark py-0">
+							<a href="https://www.youtube.com/watch?v=ahyY0rGfCD4" target="_blank'" style="text-decoration: none;"> <h5 class="card-title text-light" style="margin-top: 20px; padding-bottom:8px;"> Vizinhos 2 </h5> </a>
+						</div>
+					</div>
+				</div>
+				
+				<div class="col-lg-3">
+					<div class="card mx-auto mb-5" style="width:200px;">
+						<img class="card-img-top w-100" id="img-musica" src="../imagens/capaaga.jpg" alt="Imagem do card" style="width: 250px;">				
+						<div class="card-body text-center bg-dark py-0">
+							<a href="https://www.youtube.com/watch?v=SLDImPR03BI" target="_blank'" style="text-decoration: none;"> <h5 class="card-title text-light" style="margin-top: 20px; padding-bottom:8px;"> A Grande Aposta </h5> </a>
+						</div>
+					</div>
+				</div>
+				
+				<div class="col-lg-3">
+					<div class="card mx-auto mb-5" style="width:200px;">
+						<img class="card-img-top w-100" id="img-musica" src="../imagens/capaht2.jpg" alt="Imagem do card" style="width: 250px;">				
+						<div class="card-body text-center bg-dark py-0">
+							<a href="https://www.youtube.com/watch?v=KCQF_AmayN0" style="text-decoration: none;" target="_blank'" > <h5 class="card-title text-light"> Hotel Transylvania 2 </h5> </a>
+						</div>
+					</div>
+				</div>
+				
+				<div class="col-lg-3">
+					<div class="card mx-auto mb-5" style="width:200px;">
+						<img class="card-img-top w-100" id="img-musica" src="../imagens/capag.jpg" alt="Imagem do card" style="width: 250px;">				
+						<div class="card-body text-center bg-dark py-0">
+							<a href="https://www.youtube.com/watch?v=7ZF4jzMJ1oI" style="text-decoration: none;" target="_blank'" > <h5 class="card-title text-light" style="margin-top: 20px; padding-bottom:8px;"> Getaway </h5> </a>
+						</div>
+					</div>
+				</div>				
+			</div>
+			
+			<div class="row">
+				<div class="col-lg-3">
+					<div class="card mx-auto mb-5" style="width:200px;">
+						<img class="card-img-top w-100" id="img-musica" src="../imagens/capaht.jpg" alt="Imagem do card" style="width: 250px;">				
+						<div class="card-body text-center bg-dark py-0">
+							<a href="https://www.youtube.com/watch?v=fWbs2GlUaO0" style="text-decoration: none;" target="_blank'" > <h5 class="card-title text-light"> Hotel Transylvania </h5> </a>
+						</div>
+					</div>
+				</div>
+				
+				<div class="col-lg-3">
+					<div class="card mx-auto mb-5" style="width:200px;">
+						<img class="card-img-top w-100" id="img-musica" src="../imagens/capasb.jpg" alt="Imagem do card" style="width: 250px;">				
+						<div class="card-body text-center bg-dark py-0">
+							<a href="https://www.youtube.com/watch?v=imDML4om8z8" style="text-decoration: none;" target="_blank'" > <h5 class="card-title text-light" style="margin-top: 20px; padding-bottom:8px;"> Spring Breakers </h5> </a>
+						</div>
+					</div>
+				</div>
+				
+				<div class="col-lg-3">
+					<div class="card mx-auto mb-5" style="width:200px;">
+						<img class="card-img-top w-100" id="img-musica" src="../imagens/capaofdwp.jpeg" alt="Imagem do card" style="width: 250px;">				
+						<div class="card-body text-center bg-dark py-0">
+							<a href="https://www.youtube.com/watch?v=ybnW_fTcR0E" style="text-decoration: none;" target="_blank'" > <h5 class="card-title text-light" style="margin-top: 10px; padding-bottom:8px;"> Os Feiticeiros de Waverly Place </h5> </a>
+						</div>
+					</div>
+				</div>
+				
+				<div class="col-lg-3">
+					<div class="card mx-auto mb-5" style="width:200px;">
+						<img class="card-img-top w-100" id="img-musica" src="../imagens/capamc.jpg" alt="Imagem do card" style="width: 250px;">				
+						<div class="card-body text-center bg-dark py-0">
+							<a href="https://www.youtube.com/watch?v=-qZCt4S91h4" style="text-decoration: none;" target="_blank'" > <h5 class="card-title text-light" style="margin-top: 20px; padding-bottom:8px;"> Monte Carlo </h5> </a>
+						</div>
+					</div>
+				</div>
+			</div>
+			
+			<div class="row">
+				<div class="col-lg-3">
+					<div class="card mx-auto mb-5" style="width:200px;">
+						<img class="card-img-top w-100" id="img-musica" src="../imagens/capaaeavdm.jpg" alt="Imagem do card" style="width: 250px;">				
+						<div class="card-body text-center bg-dark py-0">
+							<a href="https://www.youtube.com/watch?v=T4oEayj2HSc" style="text-decoration: none;" target="_blank'" > <h5 class="card-title text-light"> Arthur e a Vingança de Maltazard </h5> </a>
+						</div>
+					</div>
+				</div>
+				
+				<div class="col-lg-3">
+					<div class="card mx-auto mb-5" style="width:200px;">
+						<img class="card-img-top w-100" id="img-musica" src="../imagens/capareb.jpg" alt="Imagem do card" style="width: 250px;">				
+						<div class="card-body text-center bg-dark py-0">
+							<a href="https://www.youtube.com/watch?v=VP5FW5KA6Go" style="text-decoration: none;" target="_blank'" > <h5 class="card-title text-light" style="margin-top: 20px; padding-bottom:8px;"> Ramona e Beezus </h5> </a>
+						</div>
+					</div>
+				</div>
+				
+				<div class="col-lg-3">
+					<div class="card mx-auto mb-5" style="width:200px;">
+						<img class="card-img-top w-100" id="img-musica" src="../imagens/capafowpm.jpeg" alt="Imagem do card" style="width: 250px;">				
+						<div class="card-body text-center bg-dark py-0">
+							<a href="https://www.youtube.com/watch?v=GRizB__8zHk" style="text-decoration: none;" target="_blank'" > <h5 class="card-title text-light" style="margin-top: 7px; padding-bottom:8px;"> Os Feiticeiros de Waverly Place - O Filme</h5> </a>
+						</div>
+					</div>
+				</div>
+				
+				<div class="col-lg-3">
+					<div class="card mx-auto mb-5" style="width:200px;">
+						<img class="card-img-top w-100" id="img-musica" src="../imagens/capappp.png" alt="Imagem do card" style="width: 250px;">				
+						<div class="card-body text-center bg-dark py-0">
+							<a href="https://www.youtube.com/watch?v=xL766Kf9B24" style="text-decoration: none;" target="_blank'" > <h5 class="card-title text-light" style="margin-top: 6px; padding-bottom:6px;"> Programa de Proteção para Princesas </h5> </a>
+						</div>
+					</div>
+				</div>
+			</div>
+			
+			<div class="row">
+				<div class="col-lg-3">
+					<div class="card mx-auto mb-5" style="width:200px;">
+						<img class="card-img-top w-100" id="img-musica" src="../imagens/capaocs.jpeg" alt="Imagem do card" style="width: 250px;">				
+						<div class="card-body text-center bg-dark py-0">
+							<a href="https://www.youtube.com/watch?v=gK_1oWCyEVA" style="text-decoration: none;" target="_blank'" > <h5 class="card-title text-light"> Outra História da Cinderela </h5> </a>
+						</div>
+					</div>
+				</div>
+				
+				<div class="col-lg-3">
+					<div class="card mx-auto mb-5" style="width:200px;">
+						<img class="card-img-top w-100" id="img-musica" src="../imagens/capahhaw.jpeg" alt="Imagem do card" style="width: 250px;">				
+						<div class="card-body text-center bg-dark py-0">
+							<a href="https://www.youtube.com/watch?v=0c57WC9Vc30" style="text-decoration: none;" target="_blank'" > <h5 class="card-title text-light" style="margin-top: 20px; padding-bottom:8px;"> Horton </h5> </a>
+						</div>
+					</div>
+				</div>
+				
+				<div class="col-lg-3">
+					<div class="card mx-auto mb-5" style="width:200px;">
+						<img class="card-img-top w-100" id="img-musica" src="../imagens/capatslzc.jpeg" alt="Imagem do card" style="width: 250px;">				
+						<div class="card-body text-center bg-dark py-0">
+							<a href="https://www.youtube.com/watch?v=qpbDGlWbvDg" style="text-decoration: none;" target="_blank'" > <h5 class="card-title text-light" style="margin-top: 20px; padding-bottom:8px;"> Zack e Cody </h5> </a>
+						</div>
+					</div>
+				</div>
+				
+				<div class="col-lg-3">
+					<div class="card mx-auto mb-5" style="width:200px;">
+						<img class="card-img-top w-100" id="img-musica" src="../imagens/capask3.jpg" alt="Imagem do card" style="width: 250px;">				
+						<div class="card-body text-center bg-dark py-0">
+							<a href="https://www.youtube.com/watch?v=WvJoVBe9zwI" style="text-decoration: none;" target="_blank'" > <h5 class="card-title text-light"> Pequenos Espiões 3 </h5> </a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<!--------------------------------------- FOOTER --------------------------------------->		
+		<footer style="background-color: black;">
+			<ul class="pagination justify-content-center m-0">
+				<li> <a href="https://instagram.com/selenagomez/" target="_blank'"> <p align="center" class="p-0 m-0"> <i class="fab fa-instagram" style="font-size: 25px; color: white; margin-top: 20px; margin-right: 20px; margin-bottom: 20px;"></i> </p> </a> </li>
+				<li> <a href="https://www.facebook.com/Selena" target="_blank'"> <p align="center" class="p-0 m-0"> <i class="fab fa-facebook-f" style="font-size: 25px; color: white; margin-top: 20px; margin-right: 20px; margin-bottom: 20px;"></i> </p> </a> </li>
+				<li> <a href="http://twitter.com/selenagomez" target="_blank'"> <p align="center" class="p-0 m-0"> <i class="fab fa-twitter" style="font-size: 25px; color: white; margin-top: 20px; margin-right: 20px; margin-bottom: 20px;"></i> </p> </a> </li>
+				<li> <a href="https://www.snapchat.com/add/selenagomez" target="_blank'"> <p align="center" class="p-0 m-0"> <i class="fab fa-snapchat-ghost" style="font-size: 25px; color: white; margin-top: 20px; margin-right: 20px; margin-bottom: 20px;"></i> </p> </a> </li>
+				<li> <a href="http://www.youtube.com/selenagomezvevo" target="_blank'"> <p align="center" class="p-0 m-0"> <i class="fab fa-youtube" style="font-size: 25px; color: white; margin-top: 20px; margin-right: 20px; margin-bottom: 20px;"></i> </p> </a> </li>
+				<li> <a href="https://play.spotify.com/artist/0C8ZW7ezQVs4URX5aX7Kqx?play=true&utm_source=open.spotify.com&utm_medium=open" target="_blank'"> <p align="center" class="p-0 m-0"> <i class="fab fa-spotify" style="font-size: 25px; color: white; margin-top: 20px; margin-right: 20px; margin-bottom: 20px;"></i> </p> </a> </li>
+				<li> <a href="https://itunes.apple.com/us/artist/selena-gomez/id280215834" target="_blank'"> <p align="center" class="p-0 m-0"> <i class="fab fa-apple" style="font-size: 25px; color: white; margin-top: 20px; margin-right: 20px; margin-bottom: 20px;"></i> </p> </a> </li>
+			</ul>
+		</footer>
+		
+	<!--------------------------------------- QUADRADO PARA SUBIR PAGINA --------------------------------------->
+		<a id="subirTopo">  ^</a>
+		
+	</body>
+</html>

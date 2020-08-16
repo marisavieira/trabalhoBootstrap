@@ -1,0 +1,235 @@
+<!doctype html>
+<html lang="pt-br">
+	<head>
+		<title> Selena Gomez | Galeria </title>
+		<meta charset="UTF-8" />	
+		
+		<link rel="stylesheet" type="text/css" href="../css/estilo.css"/>
+		<link rel="sortcut icon" href="../imagens/icon.jpg" type="image/x-icon" /> <!-- Para colocar o icon na barra de endereco-->
+		
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+		
+		
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B" crossorigin="anonymous">
+		
+		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.min.js" integrity="sha384-o+RDsa0aLu++PJvFqy8fFScvbHFLtbvScb8AjopnFD+iEQ7wo/CG0xlczd+2O/em" crossorigin="anonymous"></script>
+		
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+			<script type="text/javascript">
+				jQuery(document).ready(function(){
+
+				jQuery("#subirTopo").hide();
+
+				jQuery('a#subirTopo').click(function () {
+						 jQuery('body,html').animate({
+						   scrollTop: 0
+						 }, 800);
+						return false;
+				   });
+
+				jQuery(window).scroll(function () {
+						 if (jQuery(this).scrollTop() > 1000) {
+							jQuery('#subirTopo').fadeIn();
+						 } else {
+							jQuery('#subirTopo').fadeOut();
+						 }
+					 });
+				});
+			</script>
+		
+	</head>	
+	
+	<body>
+	
+	<!--------------------------------------- MENU --------------------------------------->
+	
+		<nav class="navbar navbar-expand-lg navbar-light bg-light pagination justify-content-center">
+			<ul class="navbar-nav">
+				<li class="nav-item">
+					<a class="navbar-brand" href="../index.html">
+						<img src="../imagens/logo.png" height="48" class="d-inline-block align-top" alt="">
+					</a>
+				</li>
+				<li class="nav-item">
+					<div class="dropdown">
+					  <a class="nav-link text-dark bg-light dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+						Músicas
+					  </a>
+
+					  <div class="dropdown-menu bg-light" aria-labelledby="dropdownMenuLink">
+						<a class="dropdown-item bg-light" href="musica.html">Tudo</a>
+						<a class="dropdown-item bg-light" href="albuns.html">Álbuns</a>
+						<a class="dropdown-item bg-light" href="singles.html">Singles</a>
+					  </div>
+					</div>
+				</li>	
+				<li class="nav-item">
+					<a class="nav-link text-dark bg-light" href="video.html">Videos</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link text-dark bg-light" href="filme.html">Filmes</a>
+				</li>	
+				<li class="nav-item">
+					<a class="nav-link text-dark bg-light" href="bio.html">Biografia</a>
+				</li>		
+				<li class="nav-item">
+					<a class="nav-link text-dark bg-light" href="noticia.html">Notícias</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link text-dark bg-light"><del>Galeria</del></a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link text-dark bg-light" href="loja.html">Loja</a>
+				</li>
+			</ul>
+		</nav>
+		
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-4 my-5">
+					<div class="card mx-auto" style="width:300px; height: 200px; position: relative; overflow: hidden;">
+						<img class="card-img-top" src="../imagens/tumblr_c1936a8384a79928d25df84d8147e654_1cd17c26_500.png" alt="Imagem do card" style="width: 100%; position: absolute;">				
+					</div>
+				</div>
+					
+				<div class="col-lg-4 my-5">
+					<div class="card mx-auto" style="width:300px; height: 200px; position: relative; overflow: hidden;">
+						<img class="card-img-top" src="../imagens/01.jpg" alt="Imagem do card" style="width: 100%; position: absolute;">				
+					</div>
+				</div>
+				
+				<div class="col-lg-4 my-5">
+					<div class="card mx-auto" style="width:300px; height: 200px; position: relative; overflow: hidden;">
+						<img class="card-img-top" src="../imagens/selena-fetch-backstage.png" alt="Imagem do card" style="height: 100%; width: auto; position: absolute;">				
+					</div>
+				</div>
+			</div>
+			
+			
+			<div class="row">
+				<div class="col-lg-4 my-5">
+					<div class="card mx-auto" style="width:300px; height: 200px; position: relative; overflow: hidden;">
+						<img class="card-img-top" src="../imagens/03.jpg" alt="Imagem do card" style="width: 100%; position: absolute;">				
+					</div>
+				</div>
+					
+				<div class="col-lg-4 my-5">
+					<div class="card mx-auto" style="width:300px; height: 200px; position: relative; overflow: hidden;">
+						<img class="card-img-top" src="../imagens/04.jpg" alt="Imagem do card" style="width: 100%; position: absolute;">				
+					</div>
+				</div>
+				
+				<div class="col-lg-4 my-5">
+					<div class="card mx-auto" style="width:300px; height: 200px; position: relative; overflow: hidden;">
+						<img class="card-img-top" src="../imagens/sg.png" alt="Imagem do card" style="height: 100%; width: auto; position: absolute;">				
+					</div>
+				</div>
+			</div>
+			
+			
+			<div class="row">
+				<div class="col-lg-4 my-5">
+					<div class="card mx-auto" style="width:300px; height: 200px; position: relative; overflow: hidden;">
+						<img class="card-img-top" src="../imagens/22709526_123200455022642_7540836422761054208_n.jpg" alt="Imagem do card" style="width: 100%; position: absolute;">				
+					</div>
+				</div>
+					
+				<div class="col-lg-4 my-5">
+					<div class="card mx-auto" style="width:300px; height: 200px; position: relative; overflow: hidden;">
+						<img class="card-img-top" src="../imagens/redrumbts-21.jpg" alt="Imagem do card" style="width: 100%; position: absolute;">				
+					</div>
+				</div>
+				
+				<div class="col-lg-4 my-5">
+					<div class="card mx-auto" style="width:300px; height: 200px; position: relative; overflow: hidden;">
+						<img class="card-img-top" src="../imagens/redrumbts-9.jpg" alt="Imagem do card" style="height: 100%; width: auto; position: absolute;">				
+					</div>
+				</div>
+			</div>
+			
+			
+			<div class="row">
+				<div class="col-lg-4 my-5">
+					<div class="card mx-auto" style="width:300px; height: 200px; position: relative; overflow: hidden;">
+						<img class="card-img-top" src="../imagens/redrumbts-29.jpg" alt="Imagem do card" style="width: 100%; position: absolute;">				
+					</div>
+				</div>
+					
+				<div class="col-lg-4 my-5">
+					<div class="card mx-auto" style="width:300px; height: 200px; position: relative; overflow: hidden;">
+						<img class="card-img-top" src="../imagens/19761464_438892749842771_1917196937631629312_n.jpg" alt="Imagem do card" style="width: 100%; position: absolute;">				
+					</div>
+				</div>
+				
+				<div class="col-lg-4 my-5">
+					<div class="card mx-auto" style="width:300px; height: 200px; position: relative; overflow: hidden;">
+						<img class="card-img-top" src="../imagens/selena-sqr.jpg" alt="Imagem do card" style="height: auto; width: 100%; position: absolute;">				
+					</div>
+				</div>
+			</div>
+			
+			
+			<div class="row">
+				<div class="col-lg-4 my-5">
+					<div class="card mx-auto" style="width:300px; height: 200px; position: relative; overflow: hidden;">
+						<img class="card-img-top" src="../imagens/CF003424_v05coloredSM.jpg" alt="Imagem do card" style="width: 100%; position: absolute;">				
+					</div>
+				</div>
+					
+				<div class="col-lg-4 my-5">
+					<div class="card mx-auto" style="width:300px; height: 200px; position: relative; overflow: hidden;">
+						<img class="card-img-top" src="../imagens/_W3A1040_R2_FINAL_KSM_RGBsm.jpg" alt="Imagem do card" style="width: 100%; position: absolute;">				
+					</div>
+				</div>
+				
+				<div class="col-lg-4 my-5">
+					<div class="card mx-auto" style="width:300px; height: 200px; position: relative; overflow: hidden;">
+						<img class="card-img-top" src="../imagens/Selena_Gomez_C-0063_v2_mt_0.jpg" alt="Imagem do card" style="height: auto; width: 100%; position: absolute;">				
+					</div>
+				</div>
+			</div>
+			
+			
+			<div class="row">
+				<div class="col-lg-4 my-5">
+					<div class="card mx-auto" style="width:300px; height: 200px; position: relative; overflow: hidden;">
+						<img class="card-img-top" src="../imagens/_W3A1091_R2_FINAL_KSM_RGB.jpg" alt="Imagem do card" style="width: 100%; position: absolute;">				
+					</div>
+				</div>
+					
+				<div class="col-lg-4 my-5">
+					<div class="card mx-auto" style="width:300px; height: 200px; position: relative; overflow: hidden;">
+						<img class="card-img-top" src="../imagens/images_sg.jpg" alt="Imagem do card" style="height: 100%; width: auto; position: absolute;">				
+					</div>
+				</div>
+				
+				<div class="col-lg-4 my-5">
+					<div class="card mx-auto" style="width:300px; height: 200px; position: relative; overflow: hidden;">
+						<img class="card-img-top" src="../imagens/smg.jpg" alt="Imagem do card" style="height: auto; width: 100%; position: absolute;">				
+					</div>
+				</div>
+			</div>
+			
+		</div>
+		
+		
+		<!--------------------------------------- FOOTER --------------------------------------->		
+		<footer style="background-color: black;">
+			<ul class="pagination justify-content-center m-0">
+				<li> <a href="https://instagram.com/selenagomez/" target="_blank'"> <p align="center" class="p-0 m-0"> <i class="fab fa-instagram" style="font-size: 25px; color: white; margin-top: 20px; margin-right: 20px; margin-bottom: 20px;"></i> </p> </a> </li>
+				<li> <a href="https://www.facebook.com/Selena" target="_blank'"> <p align="center" class="p-0 m-0"> <i class="fab fa-facebook-f" style="font-size: 25px; color: white; margin-top: 20px; margin-right: 20px; margin-bottom: 20px;"></i> </p> </a> </li>
+				<li> <a href="http://twitter.com/selenagomez" target="_blank'"> <p align="center" class="p-0 m-0"> <i class="fab fa-twitter" style="font-size: 25px; color: white; margin-top: 20px; margin-right: 20px; margin-bottom: 20px;"></i> </p> </a> </li>
+				<li> <a href="https://www.snapchat.com/add/selenagomez" target="_blank'"> <p align="center" class="p-0 m-0"> <i class="fab fa-snapchat-ghost" style="font-size: 25px; color: white; margin-top: 20px; margin-right: 20px; margin-bottom: 20px;"></i> </p> </a> </li>
+				<li> <a href="http://www.youtube.com/selenagomezvevo" target="_blank'"> <p align="center" class="p-0 m-0"> <i class="fab fa-youtube" style="font-size: 25px; color: white; margin-top: 20px; margin-right: 20px; margin-bottom: 20px;"></i> </p> </a> </li>
+				<li> <a href="https://play.spotify.com/artist/0C8ZW7ezQVs4URX5aX7Kqx?play=true&utm_source=open.spotify.com&utm_medium=open" target="_blank'"> <p align="center" class="p-0 m-0"> <i class="fab fa-spotify" style="font-size: 25px; color: white; margin-top: 20px; margin-right: 20px; margin-bottom: 20px;"></i> </p> </a> </li>
+				<li> <a href="https://itunes.apple.com/us/artist/selena-gomez/id280215834" target="_blank'"> <p align="center" class="p-0 m-0"> <i class="fab fa-apple" style="font-size: 25px; color: white; margin-top: 20px; margin-right: 20px; margin-bottom: 20px;"></i> </p> </a> </li>
+			</ul>
+		</footer>
+		
+	<!--------------------------------------- QUADRADO PARA SUBIR PAGINA --------------------------------------->
+		<a id="subirTopo">  ^</a>
+		
+	</body>
+</html>

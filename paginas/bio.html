@@ -1,0 +1,157 @@
+<!doctype html>
+<html lang="pt-br">
+	<head>
+		<title> Selena Gomez | Biografia </title>
+		<meta charset="UTF-8" />	
+		
+		<link rel="stylesheet" type="text/css" href="../css/estilo.css"/>
+		<link rel="sortcut icon" href="../imagens/icon.jpg" type="image/x-icon" /> <!-- Para colocar o icon na barra de endereco-->
+		
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+		
+		
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B" crossorigin="anonymous">
+		
+		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.min.js" integrity="sha384-o+RDsa0aLu++PJvFqy8fFScvbHFLtbvScb8AjopnFD+iEQ7wo/CG0xlczd+2O/em" crossorigin="anonymous"></script>
+		
+
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+			<script type="text/javascript">
+				jQuery(document).ready(function(){
+
+				jQuery("#subirTopo").hide();
+
+				jQuery('a#subirTopo').click(function () {
+						 jQuery('body,html').animate({
+						   scrollTop: 0
+						 }, 800);
+						return false;
+				   });
+
+				jQuery(window).scroll(function () {
+						 if (jQuery(this).scrollTop() > 1000) {
+							jQuery('#subirTopo').fadeIn();
+						 } else {
+							jQuery('#subirTopo').fadeOut();
+						 }
+					 });
+				});
+			</script>
+	</head>	
+	
+	<body>
+	
+	<!--------------------------------------- MENU --------------------------------------->
+	
+		<nav class="navbar navbar-expand-lg navbar-light bg-light pagination justify-content-center">
+			<ul class="navbar-nav">
+				<li class="nav-item">
+					<a class="navbar-brand" href="../index.html">
+						<img src="../imagens/logo.png" height="48" class="d-inline-block align-top" alt="">
+					</a>
+				</li>
+				<li class="nav-item">
+					<div class="dropdown">
+					  <a class="nav-link text-dark bg-light dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+						Músicas
+					  </a>
+
+					  <div class="dropdown-menu bg-light" aria-labelledby="dropdownMenuLink">
+						<a class="dropdown-item bg-light" href="musica.html">Tudo</a>
+						<a class="dropdown-item bg-light" href="albuns.html">Álbuns</a>
+						<a class="dropdown-item bg-light" href="singles.html">Singles</a>
+					  </div>
+					</div>
+				</li>	
+				<li class="nav-item">
+					<a class="nav-link text-dark bg-light" href="video.html">Vídeos</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link text-dark bg-light" href="filme.html">Filmes</a>
+				</li>	
+				<li class="nav-item">
+					<a class="nav-link text-dark bg-light"><del>Biografia</del></a>
+				</li>		
+				<li class="nav-item">
+					<a class="nav-link text-dark bg-light" href="noticia.html">Notícias</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link text-dark bg-light" href="galeria.html">Galeria</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link text-dark bg-light" href="loja.html">Loja</a>
+				</li>
+			</ul>
+		</nav>
+		
+		<!--------------------------------------- BIO --------------------------------------->
+		
+		<div class="inicio">
+			<img src="../imagens/bio.png" id="img-bio">
+		</div>
+		
+		<hr id="linha">
+		
+		<div class="container-fluid h-100">		
+			<dl class="row meio">
+			  <dt class="col-sm-5"><img src="../imagens/70802150_2486024498389796_6084151591125674568_n.jpg" style="width: 100%;"></dt>
+			  <dd class="col-sm-7 p-5"><p id="paragrafo" class="d-inline-block text-dark text-justify">  É dificil acreditar que Selena tenha apenas 27 anos quando se fala dos seus mais de 15 anos de carreira. Entre suas várias práticas durantes os anos temos
+													cantora, atriz, letrista, empresária, produtora, estilista e dubladora. Tudo inicia-se em 22 de Julho de 1992 na cidade Grand Praire no Texas, quando Ricardo Joel Gomez e Amanda "Mandy" Cornett deram a luz a sua primeira e unica
+													filha em conjunto, Selena Gomez. Selena viveu em Grand Prairie até 1999 quando mudou-se com sua mãe Mandy para Los Angeles, junto com sua melhor amiga Demi Lovato.</p></dd>			  
+			</dl>
+		</div>
+		
+		<div class="container-fluid h-100" style="background-color: white;">		
+			<dl class="row">
+				<dd class="col-sm-7 p-5"><p id="paragrafo" class="d-inline-block text-dark text-justify" style="padding-top: 40px;"> Selena começou sua carreira em 2000, com apenas sete anos, no seriado infantil Barney e Seus Amigos, onde interpretava a personagem Gianna. Ficou em Barney 
+															até meados de 2003, especificamente, da sexta a oitava temporada. No último ano do programa, Gomez fez uma participação no filme Pequenos Espiões 3-D: Fim de Jogo, no papel da 'Garota do parque aquático'. Em 2005, interpretou no 
+															filme inspirado em uma série original, chamado Walker, Texas Ranger: Trial by Fire, no papel da personagem Julie. Em 2006, finalmente fez seu primeiro papel notável, interpretou a personagem Emily Grace Garcia no filme Brain Zapped,
+															que no final, acabou não sendo lançado. No meio do ano de 2006, Gomez foi contratada pelo Disney Channel, fez uma participação em Zack e Cody: Gemeos em Ação, interpretando Gwen, em meados de agosto. Fez os episódios pilotos de séries 
+															como What's Stevie Thinking?, e em 2007 o piloto de Arwin!, ambos cancelados devido a baixa audência. Em julho de 2007, fez uma participação em Hannah Montana, interpretando a vilã Makayla.</p></dd>		
+			  <dt class="col-sm-5"><img src="../imagens/NGL_28BARNEY_16509699.jpg" style="width: 100%;"></dt>
+			  	  
+			</dl>
+		</div>
+		
+		<div class="container-fluid h-100">		
+			<dl class="row meio">
+			  <dt class="col-sm-5"><img src="../imagens/hdhdfh.jpg" style="width: 100%;"></dt>
+			  <dd class="col-sm-7 "><p id="paragrafo" class="d-inline-block text-dark text-justify"> Em 12 de outubro de 2007, estreou no Disney Channel a primeira série protagonizada por Selena, Wizards of Waverly Place, o sucesso foi tanto que o episódio de estreia arrecadou 5,9 milhões de espectadores. Cantou a música de abertura, intitulada de "Everything Is Not What It Seems", em fevereiro de 2008, lançou sua primeira música profissional, Cruella de Vil, do clássico 101 Dálmatas. Protagonizou seu primeiro filme, que estreou no dia 16 de Setembro de 2008, Um Outro Conto da Nova Cinderela foi um show de criticas e também reforçou a carreira de cantora da atriz, que interpretou a música "Tell Me Something I Don't Know", que debutou o número #58 na Billboard Hot 100. Posteriormente, fez sua primeira participação no clipe de "New Classic" de Drew Seeley, com quem protagonizou o filme.
+			</dl>
+		</div>
+		
+		<div class="container-fluid h-100" style="background-color: white;">		
+			<dl class="row">
+				<dd class="col-sm-7 p-5"><p id="paragrafo" class="d-inline-block text-dark text-justify" style="padding-top: 40px;"> Antes do lançamento do filme, Gomez deu uma entrevista à MTV em agosto de 2008. Selena Gomez disse sobre o futuro de sua carreira musical: "Eu estou pensando em formar uma banda, eu não serei uma artista solo, acho que não quero somente o meu nome ligado à mídia. Vou cantar e eu estou aprendendo a tocar bateria e guitarra". Gomez anunciou mais tarde no seu Twitter que o nome da banda seria The Scene, mas sua gravadora Hollywood Records, sugeriu que o nome do grupo fosse Selena Gomez & The Scene.</p></dd>		
+			  <dt class="col-sm-5"><img src="../imagens/155386442.jpg" style="width: 100%;"></dt>			  	  
+			</dl>
+		</div>
+		
+		<div class="container-fluid h-100">		
+			<dl class="row meio">
+			  <dt class="col-sm-5"><img src="../imagens/maxresdefault.jpg" style="width: 100%;"></dt>
+			  <dd class="col-sm-7 pt-5"><p id="paragrafo" class="d-inline-block text-dark text-justify"> Em 4 de fevereiro de 2017, Gomez postou um trecho de uma nova música em seus stories no Instagram, causando grande comoção e entusiasmado entre os fãs.[48] Após cinco dias, o DJ norueguês Kygo publicou um trecho de sua colaboração com Gomez. Gomez e Kygo confirmaram o single intitulado "It Ain't Me" através de suas contas de mídias sociais uma semana depois, no qual foi lançado em 16 de fevereiro. A música alcançou o top 10 da Billboard Hot 100[49] e vendeu mais de 10 milhões de cópias mundialmente.</p></dd>
+			</dl>
+		</div>
+		
+		
+	<!--------------------------------------- FOOTER --------------------------------------->		
+		<footer style="background-color: black;">
+			<ul class="pagination justify-content-center m-0">
+				<li> <a href="https://instagram.com/selenagomez/" target="_blank'"> <p align="center" class="p-0 m-0"> <i class="fab fa-instagram" style="font-size: 25px; color: white; margin-top: 20px; margin-right: 20px; margin-bottom: 20px;"></i> </p> </a> </li>
+				<li> <a href="https://www.facebook.com/Selena" target="_blank'"> <p align="center" class="p-0 m-0"> <i class="fab fa-facebook-f" style="font-size: 25px; color: white; margin-top: 20px; margin-right: 20px; margin-bottom: 20px;"></i> </p> </a> </li>
+				<li> <a href="http://twitter.com/selenagomez" target="_blank'"> <p align="center" class="p-0 m-0"> <i class="fab fa-twitter" style="font-size: 25px; color: white; margin-top: 20px; margin-right: 20px; margin-bottom: 20px;"></i> </p> </a> </li>
+				<li> <a href="https://www.snapchat.com/add/selenagomez" target="_blank'"> <p align="center" class="p-0 m-0"> <i class="fab fa-snapchat-ghost" style="font-size: 25px; color: white; margin-top: 20px; margin-right: 20px; margin-bottom: 20px;"></i> </p> </a> </li>
+				<li> <a href="http://www.youtube.com/selenagomezvevo" target="_blank'"> <p align="center" class="p-0 m-0"> <i class="fab fa-youtube" style="font-size: 25px; color: white; margin-top: 20px; margin-right: 20px; margin-bottom: 20px;"></i> </p> </a> </li>
+				<li> <a href="https://play.spotify.com/artist/0C8ZW7ezQVs4URX5aX7Kqx?play=true&utm_source=open.spotify.com&utm_medium=open" target="_blank'"> <p align="center" class="p-0 m-0"> <i class="fab fa-spotify" style="font-size: 25px; color: white; margin-top: 20px; margin-right: 20px; margin-bottom: 20px;"></i> </p> </a> </li>
+				<li> <a href="https://itunes.apple.com/us/artist/selena-gomez/id280215834" target="_blank'"> <p align="center" class="p-0 m-0"> <i class="fab fa-apple" style="font-size: 25px; color: white; margin-top: 20px; margin-right: 20px; margin-bottom: 20px;"></i> </p> </a> </li>
+			</ul>
+		</footer>
+		
+	<!--------------------------------------- QUADRADO PARA SUBIR PAGINA --------------------------------------->
+		<a id="subirTopo">  ^</a>
+		
+	</body>
+</html>
